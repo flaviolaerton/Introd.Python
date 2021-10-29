@@ -1,0 +1,11 @@
+def preço():
+  prod1=float(input('Qual o valor do produto 1? '))
+  prod2=float(input('Qual o valor do produto 2? '))
+  if prod1 == prod2:
+    print(f'Ambos os produtos possuem o mesmo valor, fique à vontade para levar o de sua preferência.')
+  elif prod1>prod2:
+    print(f'O prodruto 1 é mais caro que o produto 2, dê preferência ao produto 2.')
+  else:
+    print(f'O produto 2 é mais caro que o produto 1, dê preferência ao produto 1.') 
+
+preço()
